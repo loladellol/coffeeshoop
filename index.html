@@ -1,0 +1,256 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ 
+    <section>
+        <header>
+           
+            <a href="#" class="logo">Kosa</a>
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#clothes">Products</a></li>
+                <li><a href="#Contact">Contact</a></li>
+            </ul>
+            <!-- Inside your <header> or any appropriate place -->
+                <div class="cart-container">
+                    <div class="cart-icon">
+                        <img src="image/cart-icon.png" alt="Shopping Cart">
+                        <span class="cart-item-count">0</span>
+                    </div>
+                
+                    <div class="cart-content">
+                        <!-- Cart items will be displayed here -->
+                        <div class="cart-item">
+                            <span class="item-name">Product Name</span>
+                            <span class="item-price">$10.00</span>
+                            <button class="remove-item">Remove</button>                            <button class="remove-item">Remove</button>
+
+                        </div>
+                        
+                        <!-- Add the cart-total element here -->
+                        <div class="cart-total">
+                            Total: $<span id="cart-total">0.00</span>
+                        </div>
+                    </div>
+                    
+                </div>
+                
+
+            <a href="main.html"><p>Sing up</p></a>
+            
+        </header>
+
+        <div class="texts">
+            <h1>Coffee <span>Shop</span></h1>
+            <p>
+
+            </p>
+        </div>
+
+        <div class="background_image">
+            <img src="image/coffee bean-cuate.png">
+        </div>
+
+        <div class="btn">
+            <a href="./index.html" class="read">Read More</a>
+            <a href="#clothes">Shop Now</a>
+        </div>
+    </section>
+
+
+    
+
+
+    <!--About Page-->
+
+    <div id ="about" class="about">
+        <div class="box">
+            
+            <div class="card">
+                <a href="#clothes"><img src="image/coffee.png"></a>
+            </div>
+           
+            <div class="card">
+                <a href="#food"><img src="image/food.png"></a>
+            </div>
+            <div class="card">
+               <a href="#drinks"><img src="image/juice.png"></a>
+            </div>
+        </div>
+        <hr>
+
+        <div id="clothes" class="Clothes">
+            <h1>Products</h1>
+            <a href="https://ar.wikipedia.org/wiki/%D9%82%D9%87%D9%88%D8%A9#:~:
+            text=%D9%88%D8%A7%D9%84%D9%86%D9%88%D8%B9%D8%A7%D9%86%20%D8%A7%D9%84%D8%A3%D9%83%D8%AB%D8%B1%20%D8%B4%D9%8A%D9%88%D8%B9%D8%A7%D9%8B%20%D9%87%D9%85%D8%A7%20%D9%83%D8%A7%D9%81%D9%8A%D8%A7,%D8%8C%20%D8%AC%D9%86%D9%88%D8%A8%20%D8%B4%D8%B1%D9%82%20%D8%A2%D8%B3%D9%8A%D8%A7%D8%8C%20%D9%88%D8%A5%D9%81%D8%B1%D9%8A%D9%82%D9%8A%D8%A7.">
+            <p>hot drinks</p></a>
+            <div  class="clothes_box">
+                <div class="clothes_card">
+                    <img src="image/coffee1.png">
+                    <h4>Iced coffee</h4>
+                    <p>$3.00</p>
+                    <a href="#clothes" class="btn order-button" data-price="3.00" data-name = "Iced coffee" >Order</a>
+                </div>
+                
+                <div class="clothes_card">
+                    <img src="image/coffee2.png">
+                    <h4>Latte</h4>
+                    <p>$5.00</p>
+                    <a href="#clothes" class="btn order-button" data-price="5.00" data-name="Latte">Order</a>
+                </div>
+                <div class="clothes_card">
+                    <img src="image/cooffee.png">
+                    <h4>coffee</h4>
+                    <p>$1.00</p>
+                    <a href="#clothes" class="btn order-button" data-price="1.00" data-name="Coffee">Order</a>
+                </div>
+                <div class="clothes_card">
+                    <img src="image/drink8.png">
+                    <h4>mocha </h4>
+                    <p>$5.00</p>
+                    <a href="#clothes" class="btn order-button" data-price="5.00" data-name="Mocha">Order</a>
+                </div>
+            </div>
+            <div id ="food" class="Food">
+                <a href="https://ar.wikipedia.org/wiki/%D8%A8%D9%8A%D8%AA%D8%B2%D8%A7"><p>Food</p></a>
+                <div class="food_box">
+                    <div class="food_card">
+                        <img src="image/Burger.png">
+                        <h4>Burger</h4>
+                        <p>$7.99</p>
+                        <a href="#food" class="btn order-button" data-price="7.99" data-name="Burger">Order</a>
+                    </div>
+    
+                    <div class="food_card">
+                        <img src="image/sandwich.png">
+                        <h4>sandwich</h4>
+                        <p>$3.50</p>
+                        <a href="#food" class="btn order-button" data-price="3.50" data-name="Sandwich">Order</a>
+                    </div>
+    
+                    <div class="food_card">
+                        <img src="image/Hotdog.png">
+                        <h4>Hotdog</h4>
+                        <p>$5.00</p>
+                        <a href="#food" class="btn order-button" data-price="5.00" data-name="Hotdog">Order</a>
+                    </div>
+    
+                    <div class="food_card">
+                        <img src="image/pizza.png">
+                        <h4>pizza</h4>
+                        <p>$11.99</p>
+                        <a href="#food" class="btn order-button" data-price="11.99" data-name="Pizza">Order</a>
+                    </div>
+                </div>
+            </div>
+
+
+        <div id="drinks" class="Food">
+            <a href="https://ar.wikipedia.org/wiki/%D8%B9%D8%B5%D9%8A%D8%B1"><p>juices</p></a>
+            <div class="food_box">
+                <div class="food_card">
+                    <img src="image/drink1.png">
+                    <h4>Strawberry Juice</h4>
+                    <p>$2.00</p>
+                    <a href="#drinks" class="btn order-button" data-price="2.00" data-name="Strawberry ">Order</a>
+                </div>
+
+                <div class="food_card">
+                    <img src="image/drink5.png">
+                    <h4>cocktail</h4>
+                    <p>$3.00</p>
+                    <a href="#drinks" class="btn order-button" data-price="3.00" data-name="Cocktail">Order</a>
+                </div>
+
+                <div class="food_card">
+                    <img src="image/drink7.png">
+                    <h4>Orange cocktail</h4>
+                    <p>$3.00</p>
+                    <a href="#drinks" class="btn order-button" data-price="3.00" data-name="cocktail">Order</a>
+                </div>
+
+                <div class="food_card">
+                    <img src="image/drink4.png">
+                    <h4>Orange juice</h4>
+                    <p>$2.00</p>
+                    <a href="#drinks" class="btn order-button" data-price="2.00" data-name="Orange ">Order</a>
+                </div>
+            </div>
+        </div>
+        <div class="Food"><br>
+
+
+    
+    </div>
+
+    <section id="contactus" class="contact-us">
+        <form action="connect.php" method="post">
+          <label for="name">name</label>
+          <input type="text" id="name" name="name" />
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email"/>
+          <label for="message">Your comment</label>
+          <textarea name="message" id="message" cols="30" rows="5"></textarea>
+        <button class="btn" type='submit'>save</button>
+        </form>
+      </section>
+    <!--fotter-->
+
+    <br><footer id="Contact" class="footer">
+        <div class="main">
+            <div class="row">
+                <div class="footer_col">
+                    <h4>Coffee</h4>
+                     <ul>
+                        <li><a href="3.html">about us</a></li>
+                        <li><a href="3.html">our services</a></li>
+                        <li><a href="3.html">privacy policy</a></li>
+                        <li><a href="3.html">affiliate program</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer_col">
+                    <h4>Get Help</h4>
+                    <ul>
+                        <li><a href="/2.html">FAQ</a></li>
+                        <li><a href="/2.html">shiping</a></li>
+                        <li><a href="/2.html">returns</a></li>
+                        <li><a href="/2.html">payment options</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer_col">
+                    <h4>Online</h4>
+                    <ul>
+                        <li><a href="#clothes">Food</a></li>
+                        <li><a href="#clothes">drink</a></li>
+                        <li><a href="#clothes">coffee</a></li>
+                        <li><a href="#clothes">Iced Coffee</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer_col">
+                    <h4>Follower us</h4>
+                    <div class="social">
+                        <a href="https://web.facebook.com/adel.abobker.9"><img src="image/facebook.png"></a>
+                        <a href="https://twitter.com/Kosaa45266689"><img src="image/twitter.png"></a>
+                        <a href="https://www.instagram.com/adel.a.3.b/"><img src="image/instagram.png"></a>
+                    </div>               
+                        
+                    
+                </div>
+            </div>
+        </div>
+    </footer>  
+    <script src="script_index.js"></script>
+</body>
+</html>
